@@ -3,6 +3,7 @@ import  pickle
 from nltk.corpus import stopwords
 import string
 import nltk
+import scipy
 from  nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()

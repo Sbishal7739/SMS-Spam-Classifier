@@ -5,6 +5,7 @@ import string
 import nltk
 import scipy
 from  nltk.stem.porter import PorterStemmer
+from scipy.sparse import csr_matrix
 
 ps = PorterStemmer()
 

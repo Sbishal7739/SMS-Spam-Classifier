@@ -39,7 +39,9 @@ def transform_text(text):
 
     return " ".join(y)
 
-tfidf = pickle.load(open('vectorizer.pkl','rb'))
+# Use an absolute file path
+pickle_path = '/home/bishal/PycharmProject/SMS Spam Classifier/vectorizer.pkl'
+tfidf = pickle.load(open(pickle_path,'rb'))
 model = pickle.load(open('model.pkl','rb'))
 
 st.title("Email/SMS Spam Classifier")
